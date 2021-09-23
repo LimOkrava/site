@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* index style */
+
+body {
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:0px;
+ }
+
+.shapka {
+    width: 100%;
+    height: 250px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.site {
+    position: absolute;
+    top:0px;
+
+    bottom: 8px;
+    left: 0px;
+}
+
+.LIM {
+    max-width:50%;
+    border-top: 20px;
+    margin:auto;
+    background-color: rgb(17, 17, 17);
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(252, 61, 61);
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.group {
+    max-width:50%;
+    max-height: 600px;
+}
+
+.center-picture {
+    display:block;
+    margin: auto;
+}
+
+.info {
+    max-width:50%;
+    color:rgb(255, 0, 0);
+    margin:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.table {
+    margin:auto;
+    font-size: 29px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.table td:hover {
+    background-color: rgb(87, 87, 87);
+    border: 10px;
+}
+
+.table td:nth-child(1), td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+    padding: 0px 20px 0px 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 24px;
+    font-stretch: semi-condensed;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.baner-row1 {
+    position:fixed;
+    left: 0px;
+    top:450px;
+    background: black;
+}
+
+.baner-row2 {
+    position:fixed;
+    left: 0px;
+    top:470px;
+    background: black;
+}
+
+.baner-row3 {
+    position:fixed;
+    left: 0px;
+    top:490px;
+    background: black;
+}
+
+.baner-row1 a:hover,
+.baner-row2 a:hover,
+.baner-row3 a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+
+/* contacts styles */
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: black;
+    padding: 15px 0px 20px 10px;
+    outline:none;
+    font-family: inherit;
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+    opacity:0.3;
+}
+
+.row {
+    display: flex;
+}
+
+.row > .form-group {
+    width:50%;
+    margin-right: 20px;
+}

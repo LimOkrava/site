@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+.cover-width {
+    width:400px;
+    margin:20px;
+}
+
+.album-cover {
+    display:block;
+    margin: 0 auto;
+}
